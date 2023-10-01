@@ -1,4 +1,5 @@
 # alkuzin
+<img src="images/profile_banner.png">
 
 ## Tecnologies
 <a href="https://www.iso.org/standard/74528.html" title="C"><img height="48" width="48" src="icons/c.png" /></a>
