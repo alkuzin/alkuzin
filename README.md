@@ -1,6 +1,4 @@
 <img src="images/profile_banner.png">
-<br>
-<br>
 <h1 align="center">Technology Stack</h1>
 <a href="https://www.iso.org/standard/74528.html" title="C"><img height="48" width="48" src="icons/c.png" /></a>
 <a href="https://isocpp.org/" title="C++"><img height="48" width="48" src="icons/cpp.png" /></a>
