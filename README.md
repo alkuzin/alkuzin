@@ -8,10 +8,10 @@
 <a href="https://www.gnu.org/software/bash/" title="Bash"><img height="48" width="48" src="icons/bash.png" /></a>
 <a href="https://git-scm.com/" title="Git"><img height="48" width="48" src="icons/git.png" /></a>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alkuzin&layout=donut&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
-
 ## GitHub stats
-
-![Alexander's GitHub stats](https://github-readme-stats.vercel.app/api?username=alkuzin&show_icons=true&theme=holi)
-
-![Alexander's GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=alkuzin&show_icons=true&locale=en&layout=compact&hide_border=false&theme=github-dark-blue)
+<div align="center">
+<p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alkuzin&layout=donut&theme=apprentice&bg_color=000000&title_color=ffffff&text_color=999999&icon_color=ffffff">
+<img src="https://github-readme-stats.vercel.app/api?username=alkuzin&show_icons=true&theme=apprentice&bg_color=000000&title_color=ffffff&text_color=999999&icon_color=ffffff">
+</p>
+</div>
