@@ -1,20 +1,33 @@
+
 ![Banner](res/banner.png)
 
-## 🛠  System & Embedded Software Engineer
-Focus: Inertial navigation systems (**IMU**/**AHRS**), autonomous vehicles and OS architecture.
+## Embedded Systems Engineer | Robotics & Navigation
 
-My experience combines a practical implementation of navigation systems for **UAVs**/**Robotics** and an understanding of OS architecture (developing kernels from scratch).
+I design and implement reliable software for **autonomous systems**, **inertial navigation (IMU/AHRS)**, and **low-level OS architecture**.
+My focus is on bridging the gap between hardware constraints and high-level algorithmic requirements.
 
-### 📦 Key Projects
+---
 
-***
+### 🚀 Key Projects
 
-`IDTP`: Inertial Measurement Unit Data Transfer Protocol (IDTP) - lightweight protocol designed for high-performance and reliable IMU data transmission between microcontrollers and host systems. It is tailored for autonomous navigation & robotics where low latency, and data integrity are paramount.
+---
 
-![IDTP Project](res/project_idtp.png)
+#### 📡 [Inertial Navigation Data Transfer Protocol (INDTP)](https://github.com/alkuzin/indtp) | `Embedded`, `Rust`
 
-`KFS (Kernel From Scratch)`: monolithic general-purpose UNIX-like kernel in C++ with custom memory management subsystem (Bitmap PMM, SLAB-based allocator), interrupt handler and bare-metal TUI library.
+**Lightweight, binary application-layer (L7) protocol designed specifically for the Inertial Navigation Systems (INS) and autonomous platforms.**
 
-![KFS Project](res/project_kfs.png)
+INDTP addresses the critical trade-off between low-latency real-time data streaming, robustness against the noise, and cryptographic security. The protocol features a compact fixed size header, support for data aggregation in order to minimize overhead at high sampling rates, and a flexible multimode security architecture.
 
-`Eciton (Research)`: Research on microkernel & exokernel architecture and bare-metal memory management in Rust.
+#### 💻 [KFS (Kernel From Scratch)](https://github.com/alkuzin/kfs) | `C++`, `Assembly`, `QEMU`
+
+**Monolithic UNIX-like kernel implementation for educational and architectural deep-dive.**
+
+Implemented the kernel's physical and dynamic memory management subsystems (a custom modification of the **SLAB allocator**).
+Wrote drivers for basic peripherals, a **graphics subsystem** with an integrated font, processor exception handlers, hardware and software interrupts, and a kernel panic mechanism.
+Wrote a **simplified standard library (libc)** for the kernel and an interactive command shell with support for several built-in commands.
+
+---
+
+### 📄 Contact
+
+- **Email:** [alkuzindev@gmail.com](mailto:alkuzindev@gmail.com)
